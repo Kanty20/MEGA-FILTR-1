@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "my_app_hw_1",
+      "debugType": "emb-linux",
+      "attachToRunningProcessOptions": {
+        "linuxTargetMode": "standalone",
+        "attachToPid": []
+      },
+      "target": {
+        "targetConnectionId": "Linux Agent",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "file": "C:/Users/domin/Desktop/nowenowe/my_app/build/my_app.elf",
+        "remoteFilePath": "/run/media/mmcblk0p1/my_app.elf"
+      },
+      "env": {},
+      "pathMap": [],
+      "replaceNativeEnv": false,
+      "arguments": "",
+      "workingDirectory": "/run/media/mmcblk0p1",
+      "stopAtMain": true,
+      "skipRevisionCheck": false,
+      "partialBitstream": false,
+      "stopAtProgramEntry": false,
+      "autoAttachProcessChildren": false,
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}

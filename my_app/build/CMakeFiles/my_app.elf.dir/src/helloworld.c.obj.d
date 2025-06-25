@@ -1,0 +1,33 @@
+CMakeFiles/my_app.elf.dir/src/helloworld.c.obj: \
+ C:/Users/domin/Desktop/nowenowe/my_app/src/helloworld.c \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/stdc-predef.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/stdio.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/libc-header-start.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/features.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/features-time64.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/wordsize.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/timesize.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/timesize-32.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/sys/cdefs.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/long-double.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/long-double-32.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/gnu/stubs.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/gnu/stubs-32.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/gnu/stubs-hard.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include/stddef.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include/stdarg.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/types.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/typesizes.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/typesizes-32.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/time64.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/types/__fpos_t.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/types/__mbstate_t.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/types/__fpos64_t.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/types/__FILE.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/types/FILE.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/types/struct_FILE.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/types/cookie_io_functions_t.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/stdio_lim.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/floatn.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/floatn-32.h \
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/bits/floatn-common.h

@@ -1,0 +1,276 @@
+The target system is: Generic -  - arm
+The host system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin/arm-linux-gnueabihf-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "C:/Users/domin/Desktop/nowenowe/my_app/build/CMakeFiles/3.24.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin/arm-linux-gnueabihf-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "C:/Users/domin/Desktop/nowenowe/my_app/build/CMakeFiles/3.24.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/domin/Desktop/nowenowe/my_app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/2025.1/Vitis/gnuwin/bin/make.exe -f Makefile cmTC_bafb1/fast && D:/2025.1/Vitis/gnuwin/bin/make.exe  -f CMakeFiles/cmTC_bafb1.dir/build.make CMakeFiles/cmTC_bafb1.dir/build
+make.exe[1]: Entering directory 'C:/Users/domin/Desktop/nowenowe/my_app/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bafb1.dir/CMakeCCompilerABI.c.obj
+D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin/arm-linux-gnueabihf-gcc.exe   -v -o CMakeFiles/cmTC_bafb1.dir/CMakeCCompilerABI.c.obj -c D:/2025.1/tps/win64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\x86_64-w64-mingw32\usr\bin\arm-amd-linux-gnueabi\arm-amd-linux-gnueabi-gcc.exe
+Target: arm-amd-linux-gnueabi
+Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=arm-amd-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/arm-amd-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/host --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++,fortran --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-amd-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/host-native/usr/arm-amd-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/host --with-plugin-ld=ld --enable-poison-system-directories --disable-static --disable-nls --enable-initfini-array --disable-nls
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 13.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='--sysroot=D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi' '-mfloat-abi=hard' '-mfpu=neon' '-v' '-o' 'CMakeFiles/cmTC_bafb1.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv5t' '-march=armv5t' '-dumpdir' 'CMakeFiles/cmTC_bafb1.dir/'
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../libexec/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/cc1.exe -quiet -v -iprefix D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/ -isysroot D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi D:/2025.1/tps/win64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_bafb1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mfloat-abi=hard -mfpu=neon -mcpu=arm10tdmi -mtls-dialect=gnu -marm -mlibarch=armv5t -march=armv5t -version -o C:\Users\domin\AppData\Local\Temp\cc64EyJc.s
+GNU C17 (GCC) version 13.3.0 (arm-amd-linux-gnueabi)
+	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/../../../../../arm-amd-linux-gnueabi/include"
+ignoring duplicate directory "D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/../../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include"
+ignoring nonexistent directory "D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/lib/arm-amd-linux-gnueabi/13.3.0/include"
+ignoring nonexistent directory "D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/../../../../include"
+ignoring duplicate directory "D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/../../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include-fixed"
+ignoring nonexistent directory "D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/../../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/../../../../../arm-amd-linux-gnueabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include-fixed
+ D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/include
+End of search list.
+Compiler executable checksum: 8732bb127b9594f66685cb651c4bf749
+COLLECT_GCC_OPTIONS='--sysroot=D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi' '-mfloat-abi=hard' '-mfpu=neon' '-v' '-o' 'CMakeFiles/cmTC_bafb1.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv5t' '-march=armv5t' '-dumpdir' 'CMakeFiles/cmTC_bafb1.dir/'
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../libexec/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/as.exe -v -march=armv5t -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_bafb1.dir/CMakeCCompilerABI.c.obj C:\Users\domin\AppData\Local\Temp\cc64EyJc.s
+GNU assembler version 2.42.0 (arm-amd-linux-gnueabi) using BFD version (GNU Binutils) 2.42.0.20240723
+COMPILER_PATH=D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../libexec/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/;D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../libexec/arm-amd-linux-gnueabi/gcc/
+LIBRARY_PATH=D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/;D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/;D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/lib/;D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/lib/arm-amd-linux-gnueabi/13.3.0/;D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi' '-mfloat-abi=hard' '-mfpu=neon' '-v' '-o' 'CMakeFiles/cmTC_bafb1.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv5t' '-march=armv5t' '-dumpdir' 'CMakeFiles/cmTC_bafb1.dir/CMakeCCompilerABI.c.'
+Linking C static library libcmTC_bafb1.a
+D:/2025.1/tps/win64/cmake-3.24.2/bin/cmake.exe -P CMakeFiles/cmTC_bafb1.dir/cmake_clean_target.cmake
+D:/2025.1/tps/win64/cmake-3.24.2/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_bafb1.dir/link.txt --verbose=1
+D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin/arm-linux-gnueabihf-ar.exe qc libcmTC_bafb1.a CMakeFiles/cmTC_bafb1.dir/CMakeCCompilerABI.c.obj
+D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin/arm-linux-gnueabihf-ranlib.exe libcmTC_bafb1.a
+make.exe[1]: Leaving directory 'C:/Users/domin/Desktop/nowenowe/my_app/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include]
+    add: [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include-fixed]
+    add: [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/include]
+  end of search list found
+  collapse include dir [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include] ==> [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include]
+  collapse include dir [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include-fixed] ==> [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include-fixed]
+  collapse include dir [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/include] ==> [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include]
+  implicit include dirs: [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include;D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include-fixed;D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/domin/Desktop/nowenowe/my_app/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/2025.1/Vitis/gnuwin/bin/make.exe -f Makefile cmTC_bafb1/fast && D:/2025.1/Vitis/gnuwin/bin/make.exe  -f CMakeFiles/cmTC_bafb1.dir/build.make CMakeFiles/cmTC_bafb1.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'C:/Users/domin/Desktop/nowenowe/my_app/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_bafb1.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin/arm-linux-gnueabihf-gcc.exe   -v -o CMakeFiles/cmTC_bafb1.dir/CMakeCCompilerABI.c.obj -c D:/2025.1/tps/win64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\x86_64-w64-mingw32\usr\bin\arm-amd-linux-gnueabi\arm-amd-linux-gnueabi-gcc.exe]
+  ignore line: [Target: arm-amd-linux-gnueabi]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=arm-amd-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/arm-amd-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/host --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++,fortran --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-amd-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/host-native/usr/arm-amd-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/host --with-plugin-ld=ld --enable-poison-system-directories --disable-static --disable-nls --enable-initfini-array --disable-nls]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 13.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi' '-mfloat-abi=hard' '-mfpu=neon' '-v' '-o' 'CMakeFiles/cmTC_bafb1.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv5t' '-march=armv5t' '-dumpdir' 'CMakeFiles/cmTC_bafb1.dir/']
+  ignore line: [ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../libexec/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/cc1.exe -quiet -v -iprefix D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/ -isysroot D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi D:/2025.1/tps/win64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_bafb1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mfloat-abi=hard -mfpu=neon -mcpu=arm10tdmi -mtls-dialect=gnu -marm -mlibarch=armv5t -march=armv5t -version -o C:\Users\domin\AppData\Local\Temp\cc64EyJc.s]
+  ignore line: [GNU C17 (GCC) version 13.3.0 (arm-amd-linux-gnueabi)]
+  ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/../../../../../arm-amd-linux-gnueabi/include"]
+  ignore line: [ignoring duplicate directory "D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/../../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include"]
+  ignore line: [ignoring nonexistent directory "D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/lib/arm-amd-linux-gnueabi/13.3.0/include"]
+  ignore line: [ignoring nonexistent directory "D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/../../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/../../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/../../../../../arm-amd-linux-gnueabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include]
+  ignore line: [ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include-fixed]
+  ignore line: [ D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: 8732bb127b9594f66685cb651c4bf749]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi' '-mfloat-abi=hard' '-mfpu=neon' '-v' '-o' 'CMakeFiles/cmTC_bafb1.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv5t' '-march=armv5t' '-dumpdir' 'CMakeFiles/cmTC_bafb1.dir/']
+  ignore line: [ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../libexec/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/as.exe -v -march=armv5t -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_bafb1.dir/CMakeCCompilerABI.c.obj C:\Users\domin\AppData\Local\Temp\cc64EyJc.s]
+  ignore line: [GNU assembler version 2.42.0 (arm-amd-linux-gnueabi) using BFD version (GNU Binutils) 2.42.0.20240723]
+  ignore line: [COMPILER_PATH=D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../libexec/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/]
+  ignore line: [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../libexec/arm-amd-linux-gnueabi/gcc/]
+  ignore line: [LIBRARY_PATH=D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/]
+  ignore line: [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/]
+  ignore line: [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/lib/]
+  ignore line: [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/lib/arm-amd-linux-gnueabi/13.3.0/]
+  ignore line: [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi' '-mfloat-abi=hard' '-mfpu=neon' '-v' '-o' 'CMakeFiles/cmTC_bafb1.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv5t' '-march=armv5t' '-dumpdir' 'CMakeFiles/cmTC_bafb1.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C static library libcmTC_bafb1.a]
+  ignore line: [D:/2025.1/tps/win64/cmake-3.24.2/bin/cmake.exe -P CMakeFiles/cmTC_bafb1.dir/cmake_clean_target.cmake]
+  ignore line: [D:/2025.1/tps/win64/cmake-3.24.2/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_bafb1.dir/link.txt --verbose=1]
+  ignore line: [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin/arm-linux-gnueabihf-ar.exe qc libcmTC_bafb1.a CMakeFiles/cmTC_bafb1.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin/arm-linux-gnueabihf-ranlib.exe libcmTC_bafb1.a]
+  ignore line: [make.exe[1]: Leaving directory 'C:/Users/domin/Desktop/nowenowe/my_app/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/domin/Desktop/nowenowe/my_app/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/2025.1/Vitis/gnuwin/bin/make.exe -f Makefile cmTC_2de3a/fast && D:/2025.1/Vitis/gnuwin/bin/make.exe  -f CMakeFiles/cmTC_2de3a.dir/build.make CMakeFiles/cmTC_2de3a.dir/build
+make.exe[1]: Entering directory 'C:/Users/domin/Desktop/nowenowe/my_app/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2de3a.dir/CMakeCXXCompilerABI.cpp.obj
+D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin/arm-linux-gnueabihf-g++.exe   -v -o CMakeFiles/cmTC_2de3a.dir/CMakeCXXCompilerABI.cpp.obj -c D:/2025.1/tps/win64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\x86_64-w64-mingw32\usr\bin\arm-amd-linux-gnueabi\arm-amd-linux-gnueabi-g++.exe
+Target: arm-amd-linux-gnueabi
+Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=arm-amd-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/arm-amd-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/host --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++,fortran --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-amd-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/host-native/usr/arm-amd-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/host --with-plugin-ld=ld --enable-poison-system-directories --disable-static --disable-nls --enable-initfini-array --disable-nls
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 13.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='--sysroot=D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi' '-mfloat-abi=hard' '-mfpu=neon' '-v' '-o' 'CMakeFiles/cmTC_2de3a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv5t' '-march=armv5t' '-dumpdir' 'CMakeFiles/cmTC_2de3a.dir/'
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../libexec/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/cc1plus.exe -quiet -v -iprefix D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/ -isysroot D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi -D_GNU_SOURCE D:/2025.1/tps/win64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2de3a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mfpu=neon -mcpu=arm10tdmi -mtls-dialect=gnu -marm -mlibarch=armv5t -march=armv5t -version -o C:\Users\domin\AppData\Local\Temp\ccwO05ZE.s
+GNU C++17 (GCC) version 13.3.0 (arm-amd-linux-gnueabi)
+	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/../../../../../arm-amd-linux-gnueabi/include"
+ignoring duplicate directory "D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/../../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include"
+ignoring nonexistent directory "D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/lib/arm-amd-linux-gnueabi/13.3.0/include"
+ignoring nonexistent directory "D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/../../../../include"
+ignoring duplicate directory "D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/../../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include-fixed"
+ignoring nonexistent directory "D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/../../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/../../../../../arm-amd-linux-gnueabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include-fixed
+ D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0
+ D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0/arm-amd-linux-gnueabi
+ D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0/backward
+ D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/include
+End of search list.
+Compiler executable checksum: 94ecedcde93bc1d72461834312b18ab5
+COLLECT_GCC_OPTIONS='--sysroot=D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi' '-mfloat-abi=hard' '-mfpu=neon' '-v' '-o' 'CMakeFiles/cmTC_2de3a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv5t' '-march=armv5t' '-dumpdir' 'CMakeFiles/cmTC_2de3a.dir/'
+ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../libexec/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/as.exe -v -march=armv5t -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_2de3a.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\domin\AppData\Local\Temp\ccwO05ZE.s
+GNU assembler version 2.42.0 (arm-amd-linux-gnueabi) using BFD version (GNU Binutils) 2.42.0.20240723
+COMPILER_PATH=D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../libexec/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/;D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../libexec/arm-amd-linux-gnueabi/gcc/
+LIBRARY_PATH=D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/;D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/;D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/lib/;D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/lib/arm-amd-linux-gnueabi/13.3.0/;D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi' '-mfloat-abi=hard' '-mfpu=neon' '-v' '-o' 'CMakeFiles/cmTC_2de3a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv5t' '-march=armv5t' '-dumpdir' 'CMakeFiles/cmTC_2de3a.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX static library libcmTC_2de3a.a
+D:/2025.1/tps/win64/cmake-3.24.2/bin/cmake.exe -P CMakeFiles/cmTC_2de3a.dir/cmake_clean_target.cmake
+D:/2025.1/tps/win64/cmake-3.24.2/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_2de3a.dir/link.txt --verbose=1
+D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin/arm-linux-gnueabihf-ar.exe qc libcmTC_2de3a.a CMakeFiles/cmTC_2de3a.dir/CMakeCXXCompilerABI.cpp.obj
+D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin/arm-linux-gnueabihf-ranlib.exe libcmTC_2de3a.a
+make.exe[1]: Leaving directory 'C:/Users/domin/Desktop/nowenowe/my_app/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include]
+    add: [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include-fixed]
+    add: [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0]
+    add: [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0/arm-amd-linux-gnueabi]
+    add: [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0/backward]
+    add: [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/include]
+  end of search list found
+  collapse include dir [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include] ==> [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include]
+  collapse include dir [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include-fixed] ==> [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include-fixed]
+  collapse include dir [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0] ==> [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0]
+  collapse include dir [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0/arm-amd-linux-gnueabi] ==> [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0/arm-amd-linux-gnueabi]
+  collapse include dir [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0/backward] ==> [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0/backward]
+  collapse include dir [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/include] ==> [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include]
+  implicit include dirs: [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include;D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include-fixed;D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0;D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0/arm-amd-linux-gnueabi;D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0/backward;D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/cortexa9t2hf-neon-amd-linux-gnueabi/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/domin/Desktop/nowenowe/my_app/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/2025.1/Vitis/gnuwin/bin/make.exe -f Makefile cmTC_2de3a/fast && D:/2025.1/Vitis/gnuwin/bin/make.exe  -f CMakeFiles/cmTC_2de3a.dir/build.make CMakeFiles/cmTC_2de3a.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'C:/Users/domin/Desktop/nowenowe/my_app/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_2de3a.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin/arm-linux-gnueabihf-g++.exe   -v -o CMakeFiles/cmTC_2de3a.dir/CMakeCXXCompilerABI.cpp.obj -c D:/2025.1/tps/win64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\x86_64-w64-mingw32\usr\bin\arm-amd-linux-gnueabi\arm-amd-linux-gnueabi-g++.exe]
+  ignore line: [Target: arm-amd-linux-gnueabi]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-13.3.0-r0/gcc-13.3.0/configure --build=x86_64-linux --host=x86_64-w64-mingw32 --target=arm-amd-linux-gnueabi --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/libexec/arm-amd-linux-gnueabi --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/host --enable-clocale=generic --with-gnu-ld --enable-shared --enable-languages=c,c++,fortran --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=arm-amd-linux-gnueabi- --without-local-prefix --disable-install-libiberty --disable-libssp --enable-libitm --enable-lto --disable-bootstrap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/13.3.0 --with-build-time-tools=/host-native/usr/arm-amd-linux-gnueabi/bin --with-sysroot=/not/exist --with-build-sysroot=/host --with-plugin-ld=ld --enable-poison-system-directories --disable-static --disable-nls --enable-initfini-array --disable-nls]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 13.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi' '-mfloat-abi=hard' '-mfpu=neon' '-v' '-o' 'CMakeFiles/cmTC_2de3a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv5t' '-march=armv5t' '-dumpdir' 'CMakeFiles/cmTC_2de3a.dir/']
+  ignore line: [ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../libexec/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/cc1plus.exe -quiet -v -iprefix D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/ -isysroot D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi -D_GNU_SOURCE D:/2025.1/tps/win64/cmake-3.24.2/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2de3a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mfloat-abi=hard -mfpu=neon -mcpu=arm10tdmi -mtls-dialect=gnu -marm -mlibarch=armv5t -march=armv5t -version -o C:\Users\domin\AppData\Local\Temp\ccwO05ZE.s]
+  ignore line: [GNU C++17 (GCC) version 13.3.0 (arm-amd-linux-gnueabi)]
+  ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/../../../../../arm-amd-linux-gnueabi/include"]
+  ignore line: [ignoring duplicate directory "D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/../../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include"]
+  ignore line: [ignoring nonexistent directory "D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/lib/arm-amd-linux-gnueabi/13.3.0/include"]
+  ignore line: [ignoring nonexistent directory "D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/../../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/lib/arm-amd-linux-gnueabi/gcc/../../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/../../../../../arm-amd-linux-gnueabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include]
+  ignore line: [ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/include-fixed]
+  ignore line: [ D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0]
+  ignore line: [ D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0/arm-amd-linux-gnueabi]
+  ignore line: [ D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/include/c++/13.3.0/backward]
+  ignore line: [ D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Compiler executable checksum: 94ecedcde93bc1d72461834312b18ab5]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi' '-mfloat-abi=hard' '-mfpu=neon' '-v' '-o' 'CMakeFiles/cmTC_2de3a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv5t' '-march=armv5t' '-dumpdir' 'CMakeFiles/cmTC_2de3a.dir/']
+  ignore line: [ D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../libexec/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/as.exe -v -march=armv5t -mfloat-abi=hard -mfpu=neon -meabi=5 -o CMakeFiles/cmTC_2de3a.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\domin\AppData\Local\Temp\ccwO05ZE.s]
+  ignore line: [GNU assembler version 2.42.0 (arm-amd-linux-gnueabi) using BFD version (GNU Binutils) 2.42.0.20240723]
+  ignore line: [COMPILER_PATH=D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../libexec/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/]
+  ignore line: [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../libexec/arm-amd-linux-gnueabi/gcc/]
+  ignore line: [LIBRARY_PATH=D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/arm-amd-linux-gnueabi/13.3.0/]
+  ignore line: [D:/2025.1/gnu/aarch32/nt/gcc-arm-linux-gnueabi/x86_64-w64-mingw32/usr/bin/arm-amd-linux-gnueabi/../../lib/arm-amd-linux-gnueabi/gcc/]
+  ignore line: [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/lib/]
+  ignore line: [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/lib/arm-amd-linux-gnueabi/13.3.0/]
+  ignore line: [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin//../cortexa9t2hf-neon-amd-linux-gnueabi/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=D:\2025.1\Vitis\gnu\aarch32\nt\gcc-arm-linux-gnueabi\bin\\..\cortexa9t2hf-neon-amd-linux-gnueabi' '-mfloat-abi=hard' '-mfpu=neon' '-v' '-o' 'CMakeFiles/cmTC_2de3a.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-mlibarch=armv5t' '-march=armv5t' '-dumpdir' 'CMakeFiles/cmTC_2de3a.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX static library libcmTC_2de3a.a]
+  ignore line: [D:/2025.1/tps/win64/cmake-3.24.2/bin/cmake.exe -P CMakeFiles/cmTC_2de3a.dir/cmake_clean_target.cmake]
+  ignore line: [D:/2025.1/tps/win64/cmake-3.24.2/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_2de3a.dir/link.txt --verbose=1]
+  ignore line: [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin/arm-linux-gnueabihf-ar.exe qc libcmTC_2de3a.a CMakeFiles/cmTC_2de3a.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-linux-gnueabi/bin/arm-linux-gnueabihf-ranlib.exe libcmTC_2de3a.a]
+  ignore line: [make.exe[1]: Leaving directory 'C:/Users/domin/Desktop/nowenowe/my_app/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
